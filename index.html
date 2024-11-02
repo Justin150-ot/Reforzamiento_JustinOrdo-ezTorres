@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Justin Guillermo Diodhiño, Ordoñez Torres</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+            <section class="sobre_mi" id="sobremi">
+                <h2>Sobre mi</h2>
+                <p>Mi nombre es justin Ordoñez Torres, vivo en Lima, Chorrillos y estudio la carrera de diseño y desarrollo web. Me gusta jugar baloncesto y dibujar, los videojuegos son mi entretenimiento favorito.</p>
+            </section>
+            <section class="Proyectos" id="proyectos">
+                <h2>Proyectos</h2>
+                <ul>
+                    <li>Programar un fomrulario</li>
+                    <li>Hacer bocetos de dibujo</li>
+                    <li>Programar un videojuego</li>
+
+                    <div class="tabla01">
+                        <table>
+                            <caption>Lista de proyectos</caption>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Nombre</th>
+                                <th>Curso</th>
+                            </tr>
+                            <tr>
+                                <td>P0001</td>
+                                <td>Programar un fomrulario</td>
+                                <td>Diseño y desarrollo de Web</td>
+                            </tr>
+                            <tr>
+                                <td>P0002</td>
+                                <td>Hacer bocetos de dibujo</td>
+                                <td>Ilustración</td>
+                            </tr>
+                            <tr>
+                                <td>P0003</td>
+                                <td>Programar un videojuego</td>
+                                <td>Introducción a la programación</td>
+                            </tr>
+                        </table>
+                    </div>
+                </ul>
+            </section>
+            <section class="Contacto" id="contacto">
+                <h2>Contacto</h2>
+                <p>Justingamer1215@gmail.com</p>
+            <div class="formulario">
+                <form autocomplete="on" name="registro">
+                    <label>Ingrese su correo</label>
+                    <br><input type="text" maxlength="50" minlength="10" autocomplete="additional-name" placeholder="Ingresa su correo electronico">
+                    <br>
+                    <label>Ingrese mensaje</label>
+                    <br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" required="Termina el mensaje" placeholder="Ingresa mensaje"></textarea>
+                    <br>
+                    <input type="submit">
+                    <br>
+                    <input type="range" min="18" max="50" step="1"/>
+                    <br>
+                    <input type="radio" name="opciones">
+                    <label class="men">Maculino</label>
+                    <input type="radio" name="opciones">
+                    <label class="famele">Femenino</label>
+                    <br>
+                    <h3>Selecciona el país</h3>
+                    <select name="paises" id="paises">
+                        <option value="Perú">Perú</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                    </select>
+                    <br>
+                    <h4>Selecciona su fecha de nacimmiento
+                        <br>
+                        <input type="date">
+                    </p>
+                </form>
+            </div>
+            </section>
+</body>
+</html>
